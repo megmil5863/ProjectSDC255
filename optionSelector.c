@@ -7,6 +7,9 @@
 
 void mainLoop(int option)
 {
+    int number1;
+    int number2;
+
     switch (option)
     {
         case 1:
@@ -18,11 +21,23 @@ void mainLoop(int option)
             break;
 
         case 3:
-            calculation1(10, 5);
+            printf("\nEnter the first integer: ");
+            scanf("%d", &number1);
+
+            printf("Enter the second integer: ");
+            scanf("%d", &number2);
+
+            calculation1(number1, number2);
             break;
 
         case 4:
-            calculation2(10, 5);
+            printf("\nEnter the first integer: ");
+            scanf("%d", &number1);
+
+            printf("Enter the second integer: ");
+            scanf("%d", &number2);
+
+            calculation2(number1, number2);
             break;
 
         case 5:
