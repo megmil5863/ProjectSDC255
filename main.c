@@ -1,10 +1,8 @@
-#include <iostream>
+#include <stdio.h>
 #include "menu.h"
 #include "optionSelector.h"
 
-using namespace std;
-
-int main()
+int main(void)
 {
     int option;
 
@@ -16,11 +14,10 @@ int main()
 
         if (option != 5)
         {
-            cout << endl;
-            cout << "Press Enter to continue...";
+            printf("\nPress Enter to continue...");
 
-            cin.ignore();
-            cin.get();
+            getchar();
+            getchar();
         }
 
     } while (option != 5);
