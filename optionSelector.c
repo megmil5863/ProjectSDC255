@@ -1,11 +1,9 @@
-#include <iostream>
+#include <stdio.h>
 #include "optionSelector.h"
 #include "writeFile.h"
 #include "readFile.h"
 #include "calculation1.h"
 #include "calculation2.h"
-
-using namespace std;
 
 void mainLoop(int option)
 {
@@ -28,11 +26,11 @@ void mainLoop(int option)
             break;
 
         case 5:
-            cout << "Exiting program..." << endl;
+            printf("Exiting program...\n");
             break;
 
         default:
-            cout << "Invalid selection. Please enter a number from 1 to 5." << endl;
+            printf("Invalid selection. Please enter a number from 1 to 5.\n");
             break;
     }
 }
