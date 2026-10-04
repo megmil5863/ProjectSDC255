@@ -1,6 +1,6 @@
-#ifndef READFILE_H
-#define READFILE_H
+#ifndef READ_FILE_H
+#define READ_FILE_H
 
-void readFile();
+void readFile(void);
 
 #endif
