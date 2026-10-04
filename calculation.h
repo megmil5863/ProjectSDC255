@@ -1,6 +1,6 @@
-#ifndef CALCULATION2_H
-#define CALCULATION2_H
+#ifndef CALCULATION1_H
+#define CALCULATION1_H
 
-void calculation2(int number1, int number2);
+void calculation1(int number1, int number2);
 
 #endif
