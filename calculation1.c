@@ -7,5 +7,6 @@ void calculation1(int number1, int number2)
 
     result = number1 + number2;
 
-    printf("Calculation 1 result: %d\n", result);
+    printf("\nCalculation 1\n");
+    printf("%d + %d = %d\n", number1, number2, result);
 }
