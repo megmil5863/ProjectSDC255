@@ -1,7 +1,5 @@
-#include <iostream>
+#include <stdio.h>
 #include "calculation2.h"
-
-using namespace std;
 
 void calculation2(int number1, int number2)
 {
@@ -9,5 +7,5 @@ void calculation2(int number1, int number2)
 
     result = number1 * number2;
 
-    cout << "Calculation 2 result: " << result << endl;
+    printf("Calculation 2 result: %d\n", result);
 }
